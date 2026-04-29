@@ -13,6 +13,15 @@ import java.Util.Scanner;
 
 public class Tasks {
 
+
+    //initialize variables
+
+    private String taskName;
+    
+    private String userAssignment; 
+
+    private int taskValue; 
+
     public Task(String taskName, String userAssignment, int taskValue)
     {
         /*
@@ -70,6 +79,19 @@ public class Tasks {
         this.taskValue = newTaskValue(); // assign task
 
 
+    }
+
+    // Getters
+    public String getTaskName() {
+        return taskName;
+    }
+
+    public String getUserAssignment() {
+        return userAssignment;
+    }
+
+    public int getTaskValue() {
+        return taskValue;
     }
 
     
