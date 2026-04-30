@@ -11,7 +11,7 @@ Random Ideas:
 import java.Util.Scanner;
 
 
-public class Tasks {
+public class Task {
 
 
     //initialize variables
@@ -81,7 +81,9 @@ public class Tasks {
 
     }
 
-    // Getters
+    public 
+
+    // Getters . setters
     public String getTaskName() {
         return taskName;
     }
@@ -94,6 +96,17 @@ public class Tasks {
         return taskValue;
     }
 
+    public String setTaskName(String newTaskName) {
+        this.taskName = newTaskName;
+    }
+
+    public String getUserAssignment(String newUserAssignment) {
+        this.userAssignment = newUserAssignment;
+    }
+
+    public int getTaskValue(int newTaskValue) {
+        this.taskValue = newTaskValue;
+    }
     
 
 
